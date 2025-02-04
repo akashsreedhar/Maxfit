@@ -169,11 +169,11 @@ text-transform: uppercase;
 *******Header******
 **************************/
 #main-nav.navbar-default {
-background: #FFFFFF;
+background: #B1AFB4;
 }
 #main-nav.navbar-default .navbar-nav > li.active > a, #main-nav.navbar-default .navbar-nav > li.open > a, #main-nav.navbar-default .navbar-nav > li:hover > a {
-background: rgb(249, 105, 14);
-color: #FFFFFF;
+background: rgb(16, 16, 16);
+color: #B1AFB4;
 }
 .navbar.navbar-default {
   border: 0;
@@ -184,19 +184,21 @@ color: #FFFFFF;
   margin-top: 32px;
 }
 .navbar.navbar-default .navbar-brand {
-  height: auto;
-  padding: 10px 15px 1px;
+  height:auto;
+  padding: 5px 1px 1px;
+  color: white;
+  
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-color: #F8680D;
+color: #B1AFB4;
  
 background: transparent;
 }
 .navbar-default .navbar-nav>li>a{
-color: #020202;
+color: #B1AFB4;
 } 
 #main-nav.navbar-default {
-background: #FFF;
+background:#B1AFB4;
 }
 .navbar-nav>li {
 }
@@ -262,9 +264,19 @@ background: #FFF;
   }
 }
 
+
+.lead-text {
+  color: white;
+}
+
+.me-text {
+  color: black;
+}
+
+
 #hero-banner{
   overflow: hidden;
-  height: 700px;
+  height: 1500px;
   background: url('../images/banner/banner.jpg');
   background-size:cover;
   color:#fff;
